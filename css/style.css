@@ -131,7 +131,6 @@ img {
 /* MEDIA QUERY FOR MOBILE */
 
 @media screen and (max-width: 480px) {
-    
     .container , header {
         width: 100%;
     }
@@ -154,5 +153,14 @@ img {
     .container {
         width: 100%;
         padding: 0;
+    }
+}
+
+/* MEDIA QUERY FOR WIDER SCREENS */
+
+@media screen and (min-width:769px) {
+    section {
+        margin-left: 10rem;
+        margin-right: 10rem;
     }
 }
